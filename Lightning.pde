@@ -6,7 +6,6 @@ int endY = 130;
 void setup() {
   size(300,200);
   strokeWeight(4);
-  background(0);
   img = loadImage("hand.png");
   image(img, 0, -100, width, height * 1.5);
 }
