@@ -8,6 +8,8 @@ void setup() {
   strokeWeight(4);
   img = loadImage("hand.png");
   image(img, 0, -100, width, height * 1.5);
+  noFill();
+  noStroke();
 }
 void draw() {
   stroke((int)(Math.random() * 225), (int)(Math.random() * 225), (int)(Math.random() * 225));
